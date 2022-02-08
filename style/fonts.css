@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "LeMajor";
+  font-weight: Regular;
+  font-display: swap;
+  src: url("https://lp.joaomenna.com.br/font/LeMajor-Regular.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Lemore";
+  font-weight: Regular;
+  font-display: swap;
+  src: url("https://lp.joaomenna.com.br/font/Le-More-Collection-Serif.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: ogg-italic;
+  src: url(../fonts/Ogg-Italic.otf);
+}
+@font-face {
+  font-family: ogg-roman;
+  src: url(../fonts/Ogg-Roman.otf);
+}
+@font-face {
+  font-family: Albra;
+  src: url(../fonts/Albra-Font-Family/Albra-Font-Family/Albra\ Semi.otf);
+}
+@font-face {
+  font-family: Albra;
+  font-weight: light;
+  src: url(../fonts/Albra-Font-Family/Albra-Font-Family/Albra\ Light.otf);
+}
+
+body {
+  font-family: "Albra", sans-serif;
+}
+.font-LeMajor {
+  font-family: "Le Major", "Lemore", serif;
+}
+.font-lemore {
+  font-family: "Lemore", "Le Major", serif;
+}
